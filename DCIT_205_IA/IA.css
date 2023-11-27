@@ -1,0 +1,285 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    text-align: right;
+  
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+
+}
+
+
+section {
+    padding: 40px;
+   
+}
+
+.home {
+    
+        background-image: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(ma53vpbdnp1oc8a6kkj5-551x367.jpg);
+        width: 90%;
+        height: 500px;
+        text-align: center;
+    
+}
+
+footer {
+    background-color: #333;
+    color: black;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.bold-heading {
+    font-weight: bold;
+  }
+  
+
+  #container{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100%;
+width: 100%;
+background-color: #333333;
+border-radius: 10px;
+padding: 15px;
+border: 1px solid #ccc;
+
+  }
+
+#container div{
+    height: 200px;
+    width: 550px;
+    background: gray;
+    margin: 60px;
+    text-align: center;
+    overflow: hidden;
+
+    border-radius: 10px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    width: 300px; 
+    
+}
+
+.about {
+#container div{
+    height: 490px;
+    width: 650px;
+    background: #c4c8cc;
+    margin: 60px;
+    text-align: center;
+    overflow: hidden;
+}
+}
+.about a{
+    text-align: right;
+    color: #fff;
+}
+.description {
+text-align: left;
+}
+
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-button {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #333;
+    padding: 12px 16px;
+    display: block;
+    text-decoration: none;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+
+button{
+    background-color: plum;
+    border: none;
+    position: absolute;
+    transform: translate(-5% -5%);
+    padding: 10px 20px;
+    font-size: 10px;
+    overflow: hidden;
+   border-radius: 10px;
+}
+
+
+
+.contain{
+    display: flex;
+    align-items: center;
+    background-color: #c4c8cc;
+}
+.text{
+    margin-right: 10px;
+   color: #000;
+   text-align: left;
+}
+
+.keep{
+    display: flex;
+    align-items: center;
+    background-color: blanchedalmond
+}
+
+.store{
+    display: flex;
+    align-items: center;
+    background-color: burlywood
+}
+
+.hold{
+    display: flex;
+    align-items: center;
+    background-color: bisque 
+}
+
+.stock{
+    display: flex;
+    align-items: center;
+}
+img{
+    border: 2px solid #000;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px #888888;
+    width: 500px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.carry{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: #333333;
+    border-radius: 10px;
+    padding: 15px;
+    border: 1px solid #ccc;
+}
+
+
+#carry div{
+    height: 200px;
+    width: 550px;
+    background: gray;
+    margin: 60px;
+    text-align: center;
+    overflow: hidden;
+
+    border-radius: 10px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    width: 300px; 
+}
+
+
+.word{
+    
+    color: #333333;
+}
+
+.narrate{
+    margin-right: 10px;
+   color: fff;
+   text-align: left;
+}
+
+
+#gain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: #333333;
+    border-radius: 10px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    
+      }
+    
+    #gain div{
+        height: 200px;
+        width: 550px;
+        background: purple;
+        margin: 60px;
+        text-align: center;
+        overflow: hidden;
+    
+        border-radius: 10px;
+        padding: 15px;
+        border: 1px solid #ccc;
+        width: 300px; 
+        
+    }
+  
+
+
+
+  /*{box-sizing: border box;
+  }
+  .column {
+    float :left;
+    width: 33.33%
+    padding: 5px
+  }
+.row::after{
+    content: "";
+    display: table;
+    clear:both;
+}
+
+
+ border-radius: 10px;
+            padding: 15px;
+            border: 1px solid #ccc;
+            width: 300px; 
